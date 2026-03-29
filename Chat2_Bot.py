@@ -14,7 +14,7 @@ nltk.download("stopwords")
 nltk.download("punkt_tab")
 
 # Charger le fichier texte
-file_path = Path("C:/Users/DELL/Videos/DS/agriculture.txt")
+file_path = Path("agriculture.txt")
 data = file_path.read_text(encoding="utf-8")
 
 # Découper en phrases
